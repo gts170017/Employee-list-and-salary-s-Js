@@ -1,0 +1,16 @@
+03 JavaScript: Employee Payroll Tracker
+This week's challenge required me to modify the provided starter code to create an application that enables a payroll manager to view and manage employee payroll data. The application runs in the browser and features dynamically updated HTML and CSS powered by JavaScript code that I wrote. It has a clean and polished, responsive user interface that adapts to multiple screen sizes.
+
+To begin, I implemented the collectEmployees function, which prompts the user to enter the first name, last name, and salary of each employee. The salary is parsed to a float, and if the input is not a valid number, it defaults to $0. The function then returns an array of employee objects with the user-provided data.
+
+Next, I implemented the displayAverageSalary function. This function calculates the total salary of all employees in the provided array, then calculates the average salary by dividing the total salary by the number of employees. The average salary is then logged to the console using a template literal.
+
+The getRandomEmployee function was also implemented. This function generates a random index within the range of the employee array, selects the employee at the random index, and logs their full name and salary to the console using a template literal.
+
+Finally, the trackEmployeeData function was modified. This function now calls the collectEmployees function to get the array of employee data, then calls the displayAverageSalary and getRandomEmployee functions with the employee array. The employee array is then sorted alphabetically by last name and passed to the displayEmployees function.
+
+The application is deployed at XXX, and the GitHub repository can be found at https://github.com/gts170017/Employee-list-and-salary-s-Js.git. Screenshots of the application's appearance and functionality can be found below.
+
+![alt text](<Screenshot 2024-03-23 191851.png>)
+
+![alt text](<Screenshot 2024-03-23 192214.png>)
