@@ -9,7 +9,7 @@ The getRandomEmployee function was also implemented. This function generates a r
 
 Finally, the trackEmployeeData function was modified. This function now calls the collectEmployees function to get the array of employee data, then calls the displayAverageSalary and getRandomEmployee functions with the employee array. The employee array is then sorted alphabetically by last name and passed to the displayEmployees function.
 
-The application is deployed at XXX, and the GitHub repository can be found at https://github.com/gts170017/Employee-list-and-salary-s-Js.git. Screenshots of the application's appearance and functionality can be found below.
+The application is deployed at https://gts170017.github.io/Employee-list-and-salary-s-Js/, and the GitHub repository can be found at https://github.com/gts170017/Employee-list-and-salary-s-Js.git. Screenshots of the application's appearance and functionality can be found below.
 
 ![alt text](<Screenshot 2024-03-23 191851.png>)
 
